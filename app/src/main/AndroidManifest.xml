@@ -14,10 +14,26 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainBdActivity"
+            android:label="@string/title_activity_main_bd"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductoActivity"
+            android:label="@string/title_activity_producto"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">MiAplicacion1</string>
     <string name="action_settings">Settings</string>
+    <!-- Texto de la pantalla login -->
+    <string name="texto_usuario">Ingrese Usuario</string>
+    <string name="texto_password">Ingrese el password</string>
+    <string name="enviar">Login</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main_bd">MainBdActivity</string>
+    <string name="title_activity_producto">ProductoActivity</string>
 </resources>

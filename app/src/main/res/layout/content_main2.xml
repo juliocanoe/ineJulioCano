@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.eclaros.miaplicacion1.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/titulo_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="Menu de Administracion"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/accion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Seleccione una opción?" />
+
+            <Button
+                android:id="@+id/abmcategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="ABM Categoria"/>
+
+            <Button
+                android:id="@+id/abmproductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="ABM Productos"/>
+
+            <Button
+                android:id="@+id/abmclientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABM Clientes"/>
+
+            <Button
+                android:id="@+id/listarproductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listar Productos"/>
+
+            <Button
+                android:id="@+id/listarclientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listar Clientes"/>
+
+            <Button
+                android:id="@+id/listarpedidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listar Pedidos"/>
+
+            <Button
+                android:id="@+id/salir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atrás" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
